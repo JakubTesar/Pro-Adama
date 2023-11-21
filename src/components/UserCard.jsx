@@ -1,5 +1,5 @@
 export function UserCard({name, age, bookCount, level, userPP}) {
-    return <div style={{display: "flex", borderRadius: "5px", border: "solid black 1px"}}>
+    return <div style={{display: "flex", borderRadius: "5px", border: "solid black 1px", padding: "10px"}}>
         <div>
             <h2>{name}</h2>
             <p>{age}</p>
